@@ -1,78 +1,122 @@
-import * as React from 'react';
-import { Text, View, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
+import { View, ScrollView, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { Text, Card, Button } from '@rneui/themed';
 import { AntDesign } from '@expo/vector-icons';  //icone relogio,coracao
 import { Entypo } from '@expo/vector-icons'; //icone local
 
 const Principal = ({ navigation, route }) => {
-
   return (
-  
-     
-        <View style={styles.container}>
-            <TouchableOpacity onPress={() => navigation.navigate('Card1')}>
-          <Image style={styles.logo} source={require('../assets/favicon.png')} />
-            </TouchableOpacity>
+
+    <ScrollView>
+
+
+      <View style={styles.container}>
+        <Card>
+          <TouchableOpacity style={styles.back} onPress={() => navigation.navigate('Card1')}>
+            <Image style={styles.logo} source={require('../assets/icon.png')} />
+            <View>
+              <Text style={styles.titulo}>Hospital São Pedro</Text>
+
+              <View style={styles.relogio}>
+                <Text style={styles.paragraph}>Tempo de espera <AntDesign name="clockcircle" size={15} color="black" />10 min</Text>
+              </View>
+              <View style={styles.distancia}>
+                <Text style={styles.paragraph}>Distancia<Entypo name="location-pin" size={20} color="black" />10 km</Text>
+              </View>
+
+              <View style={styles.coracao}>
+                <AntDesign name="hearto" size={20} color="black" />
+              </View>
+            </View>
+          </TouchableOpacity>
+
+        </Card>
+
+        <Card>
+          <TouchableOpacity style={styles.back} onPress={() => navigation.navigate('Feed1')}>
+            <Image style={styles.logo} source={require('../logo/logo.png')} />
+          </TouchableOpacity>
           <View>
-           <Text style={styles.titulo }> Hospital São Pedro</Text>
+            <Text style={styles.titulo}> Hospital São Pedro</Text>
             <View style={styles.relogio}>
-              <Text style={styles.paragraph}> Tempo de espera <AntDesign name="clockcircle" size={15} color="black" /> 10 minutos  </Text>
+              <Text style={styles.paragraph}> Tempo de espera <AntDesign name="clockcircle" size={15} color="black" />10 min</Text>
             </View>
             <View style={styles.distancia}>
-              <Text style={styles.paragraph}> Distancia              <Entypo name="location-pin" size={20} color="black" />10 minutos  </Text>
+              <Text style={styles.paragraph}>Distancia<Entypo name="location-pin" size={20} color="black" />10 km</Text>
             </View>
             <View style={styles.coracao}>
-              <AntDesign name="hearto" size={20} color="black"/>
+              <AntDesign name="hearto" size={20} color="black" />
             </View>
           </View>
-        </View>
-        
+        </Card>
+        <Card>
+          <TouchableOpacity onPress={() => navigation.navigate('Card1')}>
+            <Image style={styles.logo} source={require('../logo/logo.png')} />
+          </TouchableOpacity>
+          <View>
+            <Text style={styles.titulo}> Hospital São Pedro</Text>
+            <View style={styles.relogio}>
+              <Text style={styles.paragraph}>Tempo de espera <AntDesign name="clockcircle" size={15} color="black" />10 min</Text>
+            </View>
+            <View style={styles.distancia}>
+              <Text style={styles.paragraph}>Distancia<Entypo name="location-pin" size={20} color="black" />10 km</Text>
+            </View>
+            <View style={styles.coracao}>
+              <AntDesign name="hearto" size={20} color="black" />
+            </View>
+          </View>
+        </Card>
+      </View>
+    </ScrollView>
+
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     elevation: 3,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 25,
-    backgroundColor:'#BFEDFA',
-    marginBottom: 500,
+    padding: -40,
+    flexDirection: 'column',
+    backgroundColor: '#BFEDFA',
     shadowColor: '#444',
     shadowOpacity: 2.5,
     shadowRadius: 7,
   },
   titulo: {
-    textAlign:'center',
-    textItems: 'center',
+    textAlign: 'right',    
     justifyContent: 'center',
     padding: 30,
     fontWeight: 'bold',
-    marginTop: -40,
+    marginTop: -120,
   },
   paragraph: {
-    textAlign:'right',
+    textAlign: 'right',
     marginTop: 0,
     fontSize: 12,
     fontWeight: 'bold',
   },
   //icone relogio
-  relogio:{
+  relogio: {
     color: "blue",
     marginBottom: 10,
-  //icone local
+    //icone local
   },
-  distancia:{
+  distancia: {
     color: "blue",
-},
+  },
   logo: {
     height: 100,
     width: 100,
   },
-    coracao:{
-    marginTop: 30,
-    marginLeft: 180,
-},
+  coracao: {
+    marginTop: 40,
+    marginLeft: 220,
+  },
+  back: {
+    backgroundColor: 'red',
+  }
 });
 
-export default Principal
+export default Principal;
