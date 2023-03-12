@@ -21,8 +21,7 @@ const Card3 = ({ navigation, route }) => {
           <TouchableOpacity onPress={() => navigation.navigate('Feed3')}>
             <Image
               style={styles.logo}
-              source={require('../logo/hospital/Hospital3.jpg')}
-            />
+              source={require('../logo/hospital/Hospital3.jpg')} />
           </TouchableOpacity>
           <View>
             <Text style={styles.titulo}>{' UPA Saúde '}</Text>
@@ -55,9 +54,11 @@ const Card3 = ({ navigation, route }) => {
               </Text>
             </View>
             <View style={styles.icon}>
-              <Text>
-                <EvilIcons name="comment" size={24} color="black" /> {' Comentário '}
-              </Text>
+              <TouchableOpacity onPress={() => navigation.navigate('Feed1')}>
+                <Text>
+                  <EvilIcons name="comment" size={24} color="black" /> {' Veja aqui os comentários '}
+                </Text>
+              </TouchableOpacity>
             </View>
             <View style={styles.icon}>
               <Text>
@@ -80,7 +81,6 @@ const Card3 = ({ navigation, route }) => {
           marginLeft: 40,
         }}>
         {' FACILIDADES '}
-
       </Text>
       <View style={styles.icon2}>
         <Text>
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     marginTop: -140,
   },
   icon: {
-    
+
     marginTop: 10,
     marginLeft: -120,
   },

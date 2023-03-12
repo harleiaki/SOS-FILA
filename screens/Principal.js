@@ -9,93 +9,75 @@ const Principal = ({ navigation, route }) => {
   return (
 
     <ScrollView>
-
       <View style={styles.container}>
         <Card>
           <TouchableOpacity
             onPress={() => navigation.navigate('Card1')}>
             <Image
               style={styles.logo}
-              source={require('../logo/hospital/Hospital.jpg')}
-            />
-
+              source={require('../logo/hospital/Hospital.jpg')} />
             <View>
               <Text style={styles.titulo}>Hospital São Pedro</Text>
-
-              <View style={styles.relogio}>
-                <Text style={styles.paragraph}>{' Tempo de espera '}
-                  <AntDesign name="clockcircle" size={15} color="black" />{' 10 min '}</Text>
-              </View>
-              <View style={styles.distancia}>
-                <Text style={styles.paragraph}>{' Distância '}
-                  <Entypo name="location-pin" size={20} color="black" />{' 10 km '} </Text>
-              </View>
-
-              <View style={styles.coracao}>
-                <AntDesign name="hearto" size={20} color="black" />
-              </View>
+            </View>
+            <View style={styles.relogio}>
+              <Text style={styles.paragraph}>{' Tempo de espera '}
+                <AntDesign name="clockcircle" size={15} color="black" />{' 10 min '}</Text>
+            </View>
+            <View style={styles.distancia}>
+              <Text style={styles.paragraph}>{' Distância '}
+                <Entypo name="location-pin" size={20} color="black" />{' 10 km '} </Text>
             </View>
           </TouchableOpacity>
-
+          <View style={styles.coracao}>
+            <AntDesign name="heart" size={24} color="red" />
+          </View>
         </Card>
         <Card>
           <TouchableOpacity
             onPress={() => navigation.navigate('Card2')}>
             <Image
               style={styles.logo}
-              source={require('../logo/hospital/Hospital2.jpg')}
-            />
-
+              source={require('../logo/hospital/Hospital2.jpg')} />
             <View>
               <Text style={styles.titulo}>Hospital Caridade</Text>
-
-              <View style={styles.relogio}>
-                <Text style={styles.paragraph}>{' Tempo de espera '}
-                  <AntDesign name="clockcircle" size={15} color="black" />{' 10 min '} </Text>
-              </View>
-              <View style={styles.distancia}>
-                <Text style={styles.paragraph}>{' Distância '}
-                  <Entypo name="location-pin" size={20} color="black" />{' 10 km '} </Text>
-              </View>
-
-              <View style={styles.coracao}>
-                <AntDesign name="hearto" size={20} color="black" />
-              </View>
+            </View>
+            <View style={styles.relogio}>
+              <Text style={styles.paragraph}>{' Tempo de espera '}
+                <AntDesign name="clockcircle" size={15} color="black" />{' 10 min '}</Text>
+            </View>
+            <View style={styles.distancia}>
+              <Text style={styles.paragraph}>{' Distância '}
+                <Entypo name="location-pin" size={20} color="black" />{' 10 km '} </Text>
             </View>
           </TouchableOpacity>
-
+          <View style={styles.coracao}>
+            <AntDesign name="hearto" size={24} color="red" />
+          </View>
         </Card>
         <Card>
           <TouchableOpacity
             onPress={() => navigation.navigate('Card3')}>
             <Image
               style={styles.logo}
-              source={require('../logo/hospital/Hospital3.jpg')}
-            />
-
+              source={require('../logo/hospital/Hospital3.jpg')} />
             <View>
-              <Text style={styles.titulo}>UPA Saúde</Text>
-
-              <View style={styles.relogio}>
-                <Text style={styles.paragraph}>{' Tempo de espera '}
-                  <AntDesign name="clockcircle" size={15} color="black" />{' 10 min '} </Text>
-              </View>
-              <View style={styles.distancia}>
-                <Text style={styles.paragraph}>{' Distância '}
-                  <Entypo name="location-pin" size={20} color="black" />{' 10 km '} </Text>
-              </View>
-
-              <View style={styles.coracao}>
-                <AntDesign name="hearto" size={20} color="black" />
-              </View>
+              <Text style={styles.titulo}>UPA Saude</Text>
+            </View>
+            <View style={styles.relogio}>
+              <Text style={styles.paragraph}>{' Tempo de espera '}
+                <AntDesign name="clockcircle" size={15} color="black" />{' 10 min '}</Text>
+            </View>
+            <View style={styles.distancia}>
+              <Text style={styles.paragraph}>{' Distância '}
+                <Entypo name="location-pin" size={20} color="black" />{' 10 km '} </Text>
             </View>
           </TouchableOpacity>
-
+          <View style={styles.coracao}>
+            <AntDesign name="heart" size={24} color="red" />
+          </View>
         </Card>
-
       </View>
     </ScrollView>
-
   );
 }
 
@@ -118,20 +100,21 @@ const styles = StyleSheet.create({
   titulo: {
     textAlign: 'right',
     justifyContent: 'center',
-    padding: 30,
+    padding: 10,
     fontWeight: 'bold',
-    marginTop: -120,
+    marginTop: -110,
   },
   paragraph: {
     textAlign: 'right',
-    marginTop: 0,
     fontSize: 12,
     fontWeight: 'bold',
+    marginTop: -60,
+
   },
   //icone relogio
   relogio: {
     color: "blue",
-    marginBottom: 10,
+    marginBottom: 15,
     //icone local
   },
   distancia: {
@@ -144,12 +127,7 @@ const styles = StyleSheet.create({
   coracao: {
     marginTop: 40,
     alignItems: 'flex-end',
-
   },
-  back: {
-    backgroundColor: 'red',
-
-  }
 });
 
 export default Principal;
