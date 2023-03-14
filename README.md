@@ -41,65 +41,6 @@ https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-
 ## Video demonstração 
 * https://www.youtube.com/watch?v=whvm6hCEioo
 
-<table>
-  <tr>   
-    <td import React, {Component} from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import { Button } from 'react-native-paper';
-import { AntDesign } from '@expo/vector-icons';  //icone relogio,coracao
-class App extends Component {
-
-  state = {
-    count: 0,
-  };
-
-  onPress = () => {
-    this.setState({
-      count: this.state.count + 1,
-
-    });
-  };
-
-  render() {
-    return (
-      <View style={styles.container}>
-        <TouchableOpacity onPress={this.onPress}>
-          <View style={styles.button}>
-                 <AntDesign name="heart" size={24} color="red" />
-          </View>
-        </TouchableOpacity>
-        <View style={[styles.countContainer]}>
-          <Text style={[styles.countText]}>
-            {this.state.count ? this.state.count : null}
-          </Text>
-        </View>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-
-  },
-  button: {
-    alignItems: 'center',
-    
-
-  },
-  countContainer: {
-    alignItems: 'center',
-
-  },
-
-
-});
-
-export default App;</td>
-</table>
-
 
 ## ✒️ Autores
 
