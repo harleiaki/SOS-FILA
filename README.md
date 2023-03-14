@@ -17,6 +17,9 @@ Na entrega 1 desenvolvemos o Figma da página e nesta entrega desenvolvemos o fl
 3. Execute no terminal npm install, para instalar as dependencias
 4. Divirta-se
 
+* Ou se preferir use o compilador online.
+https://snack.expo.dev/?platform=web 
+
 ## 🛠️ Construído com
 
 
