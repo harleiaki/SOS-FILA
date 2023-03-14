@@ -33,7 +33,7 @@ Na entrega 1 desenvolvemos o Figma da página e nesta entrega desenvolvemos o fl
 
 * ~ Protótipo Figma
 
-![Projeto sos-fila](https://user-images.githubusercontent.com/96266332/224876039-b96584aa-d94d-4db3-85a1-62b9b61390de.jpg)
+                                  ![Projeto sos-fila](https://user-images.githubusercontent.com/96266332/224876039-b96584aa-d94d-4db3-85a1-62b9b61390de.jpg)
 
 https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-8f4e-d660a87ce2fa.mp4
 
