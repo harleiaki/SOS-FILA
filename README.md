@@ -27,9 +27,9 @@ Na entrega 1 desenvolvemos o Figma da página e nesta entrega desenvolvemos o fl
 
 https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-8f4e-d660a87ce2fa.mp4
 
+* ~ Protótipo Figma
 
-
-
+![Projeto sos-fila](https://user-images.githubusercontent.com/96266332/224875077-885ff81a-86b2-4bea-b024-64a6c045e761.jpg)
 
 
 ## Video demonstração 
