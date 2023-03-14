@@ -41,6 +41,7 @@ https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-
 ## Video demonstração 
 * https://www.youtube.com/watch?v=whvm6hCEioo
 
+https://snack.expo.dev/@harleiaki/tenacious-milkshake
 
 ## ✒️ Autores
 
