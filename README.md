@@ -22,14 +22,21 @@ Na entrega 1 desenvolvemos o Figma da página e nesta entrega desenvolvemos o fl
 
 * [Expo](https://docs.expo.dev/) - O framework usado
 
+- Biblioteca, imagens, icons, recortes, fotos...
 
+* Site: https://reactnavigation.org/docs/navigating/ 
+* https://bigimage.11zon.com/en/crop-circle-image/crop-round-image.php
+* https://color.adobe.com/pt/create/color-wheel
+* https://icons.expo.fyi/
+* https://stock.adobe.com/br/
 
-
-https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-8f4e-d660a87ce2fa.mp4
 
 * ~ Protótipo Figma
 
 ![Projeto sos-fila](https://user-images.githubusercontent.com/96266332/224875077-885ff81a-86b2-4bea-b024-64a6c045e761.jpg)
+
+
+https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-8f4e-d660a87ce2fa.mp4
 
 
 ## Video demonstração 
