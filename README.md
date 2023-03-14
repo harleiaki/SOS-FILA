@@ -23,6 +23,11 @@ Na entrega 1 desenvolvemos o Figma da página e nesta entrega desenvolvemos o fl
 * [Expo](https://docs.expo.dev/) - O framework usado
 
 
+
+https://user-images.githubusercontent.com/96266332/224872118-e8dd205f-0b7a-46af-b4cc-5e5638f20899.mp4
+
+
+
 ## Video demonstração 
 * https://www.youtube.com/watch?v=whvm6hCEioo
 
