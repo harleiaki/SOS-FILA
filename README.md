@@ -24,7 +24,11 @@ Na entrega 1 desenvolvemos o Figma da página e nesta entrega desenvolvemos o fl
 
 
 
-https://user-images.githubusercontent.com/96266332/224872118-e8dd205f-0b7a-46af-b4cc-5e5638f20899.mp4
+
+https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-8f4e-d660a87ce2fa.mp4
+
+
+
 
 
 
