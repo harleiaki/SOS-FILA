@@ -34,9 +34,9 @@ https://snack.expo.dev/?platform=web
 * https://icons.expo.fyi/
 * https://stock.adobe.com/br/
 
-## Tempo de construção aproximadamente 3 semanas
+~ Tempo de construção aproximadamente 3 semanas
 
-* ~ Protótipo Figma
+* ## Protótipo Figma
 
 ![Projeto sos-fila](https://user-images.githubusercontent.com/96266332/224876039-b96584aa-d94d-4db3-85a1-62b9b61390de.jpg)
 
