@@ -53,7 +53,7 @@ const Card2 = ({ navigation, route }) => {
               </Text>
             </View>
             <View style={styles.icon}>
-              <TouchableOpacity onPress={() => navigation.navigate('Feed1')}>
+              <TouchableOpacity onPress={() => navigation.navigate('Feed2')}>
                 <Text>
                   <EvilIcons name="comment" size={24} color="black" /> {' Veja aqui os comentários '}
                 </Text>
