@@ -10,7 +10,7 @@ Na entrega 1 desenvolvemos o Figma da página e nesta entrega desenvolvemos o fl
 1. Faça o clone do repositório na sua máquina com o comando abaixo:
 
   ```
-  https://github.com/arnoldcainan/sos-fila3.0
+ https://github.com/harleiaki/SOS-FILA.git
   ```
   
 2. Execute no terminal npm expo start
