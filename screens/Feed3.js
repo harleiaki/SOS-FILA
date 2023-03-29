@@ -16,7 +16,7 @@ const Feed1 = ({ navigation, route }) => {
             <Card>
                 <Text style={{ flex: 1, flexDirection: 'row', alignItems: 'center', marginTop: 10, marginBottom: 10, fontWeight: 'bold' }}>
                     <Image style={styles.image}
-                        source={require('../logo/pessoas/WilsonSmith.png')} />  WilsonSmith </Text>
+                        source={require('../logo/pessoas/WilsonSmith.png')} />  Wilson Smith </Text>
                 <Card.Divider />
                 <View style={styles.container}>
                     <View>
