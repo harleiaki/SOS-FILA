@@ -44,7 +44,9 @@ https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-
 
 
 ## Video demonstração 
-* https://www.youtube.com/watch?v=whvm6hCEioo
+```
+https://www.youtube.com/watch?v=whvm6hCEioo
+```
 
 ## Hard Skills
 Conhecimento e habilidades técnicas profissionais, como conhecimento de linguagens de programação, compreensão do processo de desenvolvimento, React-Native, CSS, Github e muito mais.
