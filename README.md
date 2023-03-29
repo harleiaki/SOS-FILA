@@ -34,6 +34,8 @@ https://snack.expo.dev/?platform=web
 * https://icons.expo.fyi/
 * https://stock.adobe.com/br/
 
+## Tempo de construção aproximadamente 3 semanas
+
 * ~ Protótipo Figma
 
 ![Projeto sos-fila](https://user-images.githubusercontent.com/96266332/224876039-b96584aa-d94d-4db3-85a1-62b9b61390de.jpg)
@@ -43,6 +45,13 @@ https://user-images.githubusercontent.com/96266332/224872554-3eee4053-9943-4551-
 
 ## Video demonstração 
 * https://www.youtube.com/watch?v=whvm6hCEioo
+
+## Hard Skills
+Conhecimento e habilidades técnicas profissionais, como conhecimento de linguagens de programação, compreensão do processo de desenvolvimento, React-Native, CSS, Github e muito mais.
+
+
+## Soft Skills
+Qualidades pessoais como sociabilidade, capacidade de trabalhar em equipe, criatividade, pontualidade, responsabilidade.
 
 
 ## ✒️ Autores
