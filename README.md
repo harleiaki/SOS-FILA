@@ -1,5 +1,7 @@
 # sos-fila 3.0
 
+![badge](https://img.shields.io/badge/ReactNative-323330?style=for-the-badge&logo=react&logoColor=61DAFB)
+
 📃 Do que se trata
 O Sos filas foi desenvolvida como um projeto para aumentar a relação entre hospitais e pacientes.
 
