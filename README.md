@@ -1,5 +1,6 @@
 # sos-fila 3.0
 
+![badge](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
 ![badge](https://img.shields.io/badge/ReactNative-323330?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 📃 Do que se trata
