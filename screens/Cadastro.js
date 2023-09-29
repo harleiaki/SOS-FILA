@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Image } from "react-native";
 import { Button, Input, Text } from "react-native-elements";
-import styles from "./styles/MainStyle";
+import styles from "../styles/MainStyle";
 
 export default function Cadastro({ navigation }) {
   const [nome, setNome] = useState(null);
